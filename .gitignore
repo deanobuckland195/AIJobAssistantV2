@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+
+# Generated job analysis reports
+job_analysis.txt
+tests/job_analysis.txt
+
+# PyCharm settings
+.idea/
+
+# Mac system files
+.DS_Store
